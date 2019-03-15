@@ -1,0 +1,19 @@
+{
+  "name": "fjelly-fail-api",
+  "version": "1.0.0",
+  "description": "A simple API that is likely to fail.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fail"
+  ],
+  "author": "Jordan Fjellman <jordan.fjellman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "micro-cors": "^0.1.1"
+  }
+}
